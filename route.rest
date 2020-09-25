@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5f6db25ecba5642080dfaee0
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+# {
+#     "name": "Tran Duc Hoang ",
+#     "subscribedToChannel": "Simple Code 1 "
+# }
+
+###
+DELETE  http://localhost:3000/subscribers/5f6da6531b5e5e2700c7bbe0
+
+
+###
+PATCH http://localhost:3000/subscribers/5f6db25ecba5642080dfaee0
+Content-Type: application/json
+
+# {
+#     "name":"Hoangtd21",
+#     "subscribedToChannel":"Code Web"
+# }
